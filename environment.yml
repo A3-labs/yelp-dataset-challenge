@@ -1,0 +1,54 @@
+name: ds
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas 
+  - numpy 
+  - holoviews 
+  - geoviews 
+  - cython 
+  - dask 
+  - keras 
+  - pymc3 
+  - gdal 
+  - geopandas  
+  - dask-ml 
+  - dask-searchcv
+  - matplotlib
+  - importnb
+  - xarray 
+  - ipympl
+  - pyarrow 
+  - fastparquet
+  - flake8
+  - datashader
+  - graphviz
+  - python-graphviz
+  - jupyter_contrib_nbextensions
+  - seaborn
+  - numba 
+  - networkx
+  - pytest 
+  - python=3.6
+  - scikit-image
+  - scikit-learn
+  - scipy 
+  - sympy 
+  - tqdm
+  - zarr
+  - pyyaml
+  - yapf 
+  - widgetsnbextension
+  - xz 
+  - libgcc-ng
+  - libgfortran
+  - libstdcxx-ng
+  - geoplot 
+  - pip:
+    - msgpack
+    - version-information
+    - holoext
+
+prefix: /home/abanihirwe/opt/miniconda3/envs/ds
+
