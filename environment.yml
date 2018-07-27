@@ -1,5 +1,6 @@
 name: ds
 channels:
+  - pyviz
   - conda-forge
   - defaults
 dependencies:
@@ -44,7 +45,8 @@ dependencies:
   - libgcc-ng
   - libgfortran
   - libstdcxx-ng
-  - geoplot 
+  - geoplot
+  - hvplot
   - pip:
     - msgpack
     - version-information
