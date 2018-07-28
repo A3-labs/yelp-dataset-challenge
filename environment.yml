@@ -47,6 +47,9 @@ dependencies:
   - libstdcxx-ng
   - geoplot
   - hvplot
+  - autopep8
+  - isort
+  - ipyleaflet
   - pip:
     - msgpack
     - version-information
